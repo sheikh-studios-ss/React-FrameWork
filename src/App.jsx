@@ -14,7 +14,7 @@ function App() {
   return (
     <div>
       <Navbar color={Color % 2 === 0 ? "pink" : "yellow"} />
-      
+     
       <div>
         This Count Is: {Count}
         <br />
@@ -26,6 +26,9 @@ function App() {
       </div>
     </div>
   );
+    <>
+    </>
+  )
 }
 
 export default App;
